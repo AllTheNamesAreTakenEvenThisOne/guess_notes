@@ -22,29 +22,7 @@ const Inputs = ({ onConfirm }) => {
   };
 
   return (
-    <div className="inputs">
-      <input
-        type="text"
-        value={inputValue}
-        onChange={(e) => setInputValue(e.target.value)}
-        placeholder="Enter name"
-      />
-
-      <input
-        type="number"
-        value={minRange}
-        onChange={(e) => setMinRange(e.target.value)}
-        placeholder="Min Range"
-      />
-
-      <input
-        type="number"
-        value={maxRange}
-        onChange={(e) => setMaxRange(e.target.value)}
-        placeholder="Max Range"
-      />
-
-      <button onClick={confirmInput}>Confirm</button>
+    <div className="inputs">C D E F G A B
     </div>
   );
 }
